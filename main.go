@@ -20,7 +20,7 @@ func main() {
 		dir, _ := os.Getwd()
 		// hostname, _ := os.Hostname()
 		currentUser, _ := user.Current()
-		fmt.Printf("%s:%s$ ", currentUser.Username, dir)
+		fmt.Printf("%s:%s $ ", currentUser.Username, dir)
 		// fmt.Print("$")
 		// Read the keyboard input
 		input, err := reader.ReadString('\n')
@@ -83,7 +83,7 @@ func execInput(input string) error {
 	return cmd.Run()
 }
 
-// History
+// History {Still in progress had to use third party library for this}
 func chkHistory(input string) string {
 	// Navigate up
 	if input == "up" {
