@@ -20,7 +20,7 @@ A basic shell-like program in Go that lets you execute commands, change director
    history
    exit
    ```
-##Example
+## Example
 ```bash
 username:/path/to/dir $ cd "VS Code"
 username:/path/to/VS Code $ history
